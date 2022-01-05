@@ -1,0 +1,46 @@
+.x {
+  background-color: #f6f7fb;
+}
+
+.bg-img {
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+}
+
+.vacancies {
+  color: #334680;
+  display: flex;
+  flex-direction: row;
+}
+.vacancies-add {
+  color: #334680;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.vacancies-add-p {
+  color: #334680;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.align-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  border: solid 1px;
+  padding: 0.2em;
+  border-radius: 0.2em;
+  text-align: center;
+}
